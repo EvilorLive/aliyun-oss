@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: alioss-upload
+aliyun:
+  oss:
+    endpoint:
+    accessKeyId:
+    accessKeySecret:
+    bucketName:
+    imageSuffix: .jpg,.jpeg,.gif,.png
+    fileSuffix: .md,.docx,.sql.xlsm,.zip
+
+
